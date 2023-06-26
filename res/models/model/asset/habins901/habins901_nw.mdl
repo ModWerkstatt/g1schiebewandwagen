@@ -1,0 +1,669 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 11.684397697449, 1.5404090881348, 4.2516708374023, },
+		bbMin = { -11.684397697449, -1.5404090881348, 0.36775186657906, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 11.684397697449, 1.5404090881348, 1.9419595003128, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+								mesh = "vehicle/waggon/gestelly25/jay_y25_mesh_gestell_lod0.msh",
+								name = "jay_y25_mesh_gestell",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+								mesh = "vehicle/waggon/gestelly25/jay_y25_mesh_w1_lod0.msh",
+								name = "jay_y25_mesh_w1",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.93000000715256, -3.870786713378e-08, 0.45438700914383, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+								mesh = "vehicle/waggon/gestelly25/jay_y25_mesh_w1_lod0.msh",
+								name = "jay_y25_mesh_w1",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.89999997615814, -3.870786713378e-08, 0.45438700914383, 1, },
+							},
+						},
+						name = "dg1",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -8.8900003433228, 0, -0.050000000745058, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+								mesh = "vehicle/waggon/gestelly25/jay_y25_mesh_gestell_lod0.msh",
+								name = "jay_y25_mesh_gestell",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+								mesh = "vehicle/waggon/gestelly25/jay_y25_mesh_w1_lod0.msh",
+								name = "jay_y25_mesh_w1",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.93000000715256, -3.870786713378e-08, 0.45438700914383, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+								mesh = "vehicle/waggon/gestelly25/jay_y25_mesh_w1_lod0.msh",
+								name = "jay_y25_mesh_w1",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.89999997615814, -3.870786713378e-08, 0.45438700914383, 1, },
+							},
+						},
+						name = "dg2",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 8.8900003433228, 0, -0.050000000745058, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+						mesh = "vehicle/waggon/gestelly25/jay_mesh_kupplungMaikC_lod0.msh",
+						name = "jay_mesh_habisSBB_kupplungMaikC",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -1.0499999523163, 0, -0.10999999940395, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+						mesh = "vehicle/waggon/gestelly25/jay_mesh_kupplungMaikC_lod0.msh",
+						name = "jay_mesh_habisSBB_kupplungMaikC",
+						transf = { -1, 0, 0, 0, -0, -1, 0, 0, 0, -0, 1, 0, 1.0499999523163, 0, -0.10999999940395, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_untersatz_lod0.msh",
+						name = "jay_mesh_habins902_untersatz",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_stirnwand_lod0.msh",
+						name = "jay_mesh_habins902_stirnwand",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_hbremse_lod0.msh",
+						name = "jay_mesh_habins902_hbremse",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_puffer_lod0.msh",
+						name = "jay_mesh_habins902_puffer",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						animations = {
+							close_doors_right = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/habins901/Scene/jay_mesh_habins902_doorR01.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/waggon/habins901/Scene/jay_mesh_habins902_doorR01.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_doorR01_lod0.msh",
+						name = "jay_mesh_habins902_doorR01",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_frontAdd_lod0.msh",
+						name = "jay_mesh_habins902_frontAdd",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_frontStangen_lod0.msh",
+						name = "jay_mesh_habins902_frontStangen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_mitte_lod0.msh",
+						name = "jay_mesh_habins902_mitte",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_griffStangen_lod0.msh",
+						name = "jay_mesh_habins902_griffStangen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_rohr_lod0.msh",
+						name = "jay_mesh_habins902_rohr",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_hebel_lod0.msh",
+						name = "jay_mesh_habins902_hebel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_seilOsen_lod0.msh",
+						name = "jay_mesh_habins902_seilOsen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_heberOffner_lod0.msh",
+						name = "jay_mesh_habins902_heberOffner",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_dachLeiste_lod0.msh",
+						name = "jay_mesh_habins902_dachLeiste",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_doorR02_lod0.msh",
+						name = "jay_mesh_habins902_doorR02",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						animations = {
+							close_doors_left = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/habins901/Scene/jay_mesh_habins902_doorL01.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/waggon/habins901/Scene/jay_mesh_habins902_doorL01.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_doorL01_lod0.msh",
+						name = "jay_mesh_habins902_doorL01",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_doorL02_lod0.msh",
+						name = "jay_mesh_habins902_doorL02",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_hebel_lod0.msh",
+						name = "jay_mesh_habins902_hebel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_tritt_lod0.msh",
+						name = "jay_mesh_habins902_tritt",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.03999999910593, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 67.254417419434,
+		},
+		{
+			node = {
+				children = {
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+								mesh = "vehicle/waggon/gestelly25/jay_y25_mesh_gestell_lod1.msh",
+								name = "jay_y25_mesh_gestell",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+								mesh = "vehicle/waggon/gestelly25/jay_y25_mesh_w1_lod1.msh",
+								name = "jay_y25_mesh_w1",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.93000000715256, -3.870786713378e-08, 0.45438700914383, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+								mesh = "vehicle/waggon/gestelly25/jay_y25_mesh_w1_lod1.msh",
+								name = "jay_y25_mesh_w1",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.89999997615814, -3.870786713378e-08, 0.45438700914383, 1, },
+							},
+						},
+						name = "dg1",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -8.8900003433228, 0, -0.03999999910593, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+								mesh = "vehicle/waggon/gestelly25/jay_y25_mesh_gestell_lod1.msh",
+								name = "jay_y25_mesh_gestell",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+								mesh = "vehicle/waggon/gestelly25/jay_y25_mesh_w1_lod1.msh",
+								name = "jay_y25_mesh_w1",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.93000000715256, -3.870786713378e-08, 0.45438700914383, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+								mesh = "vehicle/waggon/gestelly25/jay_y25_mesh_w1_lod1.msh",
+								name = "jay_y25_mesh_w1",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.89999997615814, -3.870786713378e-08, 0.45438700914383, 1, },
+							},
+						},
+						name = "dg2",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 8.8900003433228, 0, -0.03999999910593, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_untersatz_lod1.msh",
+						name = "jay_mesh_habins902_untersatz",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_stirnwand_lod1.msh",
+						name = "jay_mesh_habins902_stirnwand",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_hbremse_lod1.msh",
+						name = "jay_mesh_habins902_hbremse",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_puffer_lod1.msh",
+						name = "jay_mesh_habins902_puffer",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						animations = {
+							close_doors_right = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/habins901/Scene/jay_mesh_habins902_doorR01.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/waggon/habins901/Scene/jay_mesh_habins902_doorR01.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_doorR01_lod1.msh",
+						name = "jay_mesh_habins902_doorR01",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_frontAdd_lod1.msh",
+						name = "jay_mesh_habins902_frontAdd",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_frontStangen_lod1.msh",
+						name = "jay_mesh_habins902_frontStangen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_mitte_lod1.msh",
+						name = "jay_mesh_habins902_mitte",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_griffStangen_lod1.msh",
+						name = "jay_mesh_habins902_griffStangen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_dachLeiste_lod1.msh",
+						name = "jay_mesh_habins902_dachLeiste",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_doorR02_lod1.msh",
+						name = "jay_mesh_habins902_doorR02",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						animations = {
+							close_doors_left = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/habins901/Scene/jay_mesh_habins902_doorL01.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/waggon/habins901/Scene/jay_mesh_habins902_doorL01.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_doorL01_lod1.msh",
+						name = "jay_mesh_habins902_doorL01",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_doorL02_lod1.msh",
+						name = "jay_mesh_habins902_doorL02",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.03999999910593, 1, },
+			},
+			static = false,
+			visibleFrom = 67.254417419434,
+			visibleTo = 201.76324462891,
+		},
+		{
+			node = {
+				children = {
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+								mesh = "vehicle/waggon/gestelly25/jay_y25_mesh_gestell_lod2.msh",
+								name = "jay_y25_mesh_gestell",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+								mesh = "vehicle/waggon/gestelly25/jay_y25_mesh_w1_lod2.msh",
+								name = "jay_y25_mesh_w1",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.93000000715256, -3.870786713378e-08, 0.45438700914383, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+								mesh = "vehicle/waggon/gestelly25/jay_y25_mesh_w1_lod2.msh",
+								name = "jay_y25_mesh_w1",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.89999997615814, -3.870786713378e-08, 0.45438700914383, 1, },
+							},
+						},
+						name = "dg1",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -8.8900003433228, 0, -0.029999999329448, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+								mesh = "vehicle/waggon/gestelly25/jay_y25_mesh_gestell_lod2.msh",
+								name = "jay_y25_mesh_gestell",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+								mesh = "vehicle/waggon/gestelly25/jay_y25_mesh_w1_lod2.msh",
+								name = "jay_y25_mesh_w1",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.93000000715256, -3.870786713378e-08, 0.45438700914383, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+								mesh = "vehicle/waggon/gestelly25/jay_y25_mesh_w1_lod2.msh",
+								name = "jay_y25_mesh_w1",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.89999997615814, -3.870786713378e-08, 0.45438700914383, 1, },
+							},
+						},
+						name = "dg2",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 8.8900003433228, 0, -0.029999999329448, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_untersatz_lod2.msh",
+						name = "jay_mesh_habins902_untersatz",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_stirnwand_lod2.msh",
+						name = "jay_mesh_habins902_stirnwand",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_puffer_lod2.msh",
+						name = "jay_mesh_habins902_puffer",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						animations = {
+							close_doors_right = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/habins901/Scene/jay_mesh_habins902_doorR01.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/waggon/habins901/Scene/jay_mesh_habins902_doorR01.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_doorR01_lod2.msh",
+						name = "jay_mesh_habins902_doorR01",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_frontAdd_lod2.msh",
+						name = "jay_mesh_habins902_frontAdd",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_frontStangen_lod2.msh",
+						name = "jay_mesh_habins902_frontStangen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_mitte_lod2.msh",
+						name = "jay_mesh_habins902_mitte",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_dachLeiste_lod2.msh",
+						name = "jay_mesh_habins902_dachLeiste",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_doorR02_lod2.msh",
+						name = "jay_mesh_habins902_doorR02",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						animations = {
+							close_doors_left = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/habins901/Scene/jay_mesh_habins902_doorL01.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/waggon/habins901/Scene/jay_mesh_habins902_doorL01.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_doorL01_lod2.msh",
+						name = "jay_mesh_habins902_doorL01",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_doorL02_lod2.msh",
+						name = "jay_mesh_habins902_doorL02",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.03999999910593, 1, },
+			},
+			static = false,
+			visibleFrom = 201.76324462891,
+			visibleTo = 605.28973388672,
+		},
+		{
+			node = {
+				children = {
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+								mesh = "vehicle/waggon/gestelly25/jay_y25_mesh_w1_lod3.msh",
+								name = "jay_y25_mesh_w1",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.93000000715256, -3.870786713378e-08, 0.45438700914383, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+								mesh = "vehicle/waggon/gestelly25/jay_y25_mesh_w1_lod3.msh",
+								name = "jay_y25_mesh_w1",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.89999997615814, -3.870786713378e-08, 0.45438700914383, 1, },
+							},
+						},
+						name = "dg1",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -9, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+								mesh = "vehicle/waggon/gestelly25/jay_y25_mesh_w1_lod3.msh",
+								name = "jay_y25_mesh_w1",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.93000000715256, -3.870786713378e-08, 0.45438700914383, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/gestelly25/ViererGestell_schwarz.mtl", },
+								mesh = "vehicle/waggon/gestelly25/jay_y25_mesh_w1_lod3.msh",
+								name = "jay_y25_mesh_w1",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.89999997615814, -3.870786713378e-08, 0.45438700914383, 1, },
+							},
+						},
+						name = "dg2",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 9, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_untersatz_lod3.msh",
+						name = "jay_mesh_habins902_untersatz",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_stirnwand_lod3.msh",
+						name = "jay_mesh_habins902_stirnwand",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						animations = {
+							close_doors_right = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/habins901/Scene/jay_mesh_habins902_doorR01.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/waggon/habins901/Scene/jay_mesh_habins902_doorR01.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_doorR01_lod3.msh",
+						name = "jay_mesh_habins902_doorR01",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_doorR02_lod3.msh",
+						name = "jay_mesh_habins902_doorR02",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						animations = {
+							close_doors_left = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/habins901/Scene/jay_mesh_habins902_doorL01.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/waggon/habins901/Scene/jay_mesh_habins902_doorL01.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_doorL01_lod3.msh",
+						name = "jay_mesh_habins902_doorL01",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habins901/Habins901_nw.mtl", },
+						mesh = "vehicle/waggon/habins901/jay_mesh_habins902_doorL02_lod3.msh",
+						name = "jay_mesh_habins902_doorL02",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 605.28973388672,
+			visibleTo = 1815.869140625,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

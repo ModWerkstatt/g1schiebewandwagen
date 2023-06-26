@@ -1,0 +1,723 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 11.630452156067, 1.4765764474869, 4.1794238090515, },
+		bbMin = { -11.630452156067, -1.4765728712082, 0.39684411883354, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 11.630452156067, 1.4765746593475, 1.8912898302078, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_untersatz_lod0.msh",
+						name = "jay_mesh_habis6_untersatz",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_platte_lod0.msh",
+						name = "jay_mesh_habis6_platte",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_fronten_lod0.msh",
+						name = "jay_mesh_habis6_fronten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_dach_lod0.msh",
+						name = "jay_mesh_habis6_dach",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_puffer_lod0.msh",
+						name = "jay_mesh_habis6_puffer",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, -0.050000000745058, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_kupplungVomGutenMaikC_lod0.msh",
+						name = "jay_mesh_habis6_kupplungVomGutenMaikC",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_frontAdd_lod0.msh",
+						name = "jay_mesh_habis6_frontAdd",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_frontStangen_lod0.msh",
+						name = "jay_mesh_habis6_frontStangen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_untenRum_lod0.msh",
+						name = "jay_mesh_habis6_untenRum",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_griffstangen_lod0.msh",
+						name = "jay_mesh_habis6_griffstangen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_seilhaken_lod0.msh",
+						name = "jay_mesh_habis6_seilhaken",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_griffFront_lod0.msh",
+						name = "jay_mesh_habis6_griffFront",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_mitten_lod0.msh",
+						name = "jay_mesh_habis6_mitten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_ding_lod0.msh",
+						name = "jay_mesh_habis6_ding",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_hebel_lod0.msh",
+						name = "jay_mesh_habis6_hebel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						animations = {
+							close_doors_right = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/habis6/Scene/jay_mesh_habis6_door01.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/waggon/habis6/Scene/jay_mesh_habis6_door01.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_door01_lod0.msh",
+						name = "jay_mesh_habis6_door01",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_stangenHalter_lod0.msh",
+						name = "jay_mesh_habis6_stangenHalter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_stangenFront_lod0.msh",
+						name = "jay_mesh_habis6_stangenFront",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_offner_lod0.msh",
+						name = "jay_mesh_habis6_offner",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_door02_lod0.msh",
+						name = "jay_mesh_habis6_door02",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_door03_lod0.msh",
+						name = "jay_mesh_habis6_door03",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_offnerMittelDoor_lod0.msh",
+						name = "jay_mesh_habis6_offnerMittelDoor",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						animations = {
+							close_doors_right = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/habis6/Scene/jay_mesh_habis6_offnerAnim01.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/waggon/habis6/Scene/jay_mesh_habis6_offnerAnim01.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_offnerAnim01_lod0.msh",
+						name = "jay_mesh_habis6_offnerAnim01",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.028130531311, -1.3275238275528, 1.3617626428604, 1, },
+					},
+					{
+						animations = {
+							close_doors_left = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/habis6/Scene/jay_mesh_habis6_offnerAnim04.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/waggon/habis6/Scene/jay_mesh_habis6_offnerAnim04.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_offnerAnim04_lod0.msh",
+						name = "jay_mesh_habis6_offnerAnim04",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 11.02813243866, 1.3275240659714, 1.3617604970932, 1, },
+					},
+					{
+						animations = {
+							close_doors_left = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/habis6/Scene/jay_mesh_habis6_door04.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/waggon/habis6/Scene/jay_mesh_habis6_door04.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_door04_lod0.msh",
+						name = "jay_mesh_habis6_door04",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_door05_lod0.msh",
+						name = "jay_mesh_habis6_door05",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_door06_lod0.msh",
+						name = "jay_mesh_habis6_door06",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_untenRohr_lod0.msh",
+						name = "jay_mesh_habis6_untenRohr",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_tritt_lod0.msh",
+						name = "jay_mesh_habis6_tritt",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_645/dg_ba_645_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "DG_vorne",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 8.8100004196167, 0, -0.079999998211861, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_645/dg_ba_645_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "DG_hinten",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -8.8100004196167, 0, -0.079999998211861, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.079999998211861, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 66.39811706543,
+		},
+		{
+			node = {
+				children = {
+
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_untersatz_lod1.msh",
+						name = "jay_mesh_habis6_untersatz",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_platte_lod1.msh",
+						name = "jay_mesh_habis6_platte",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_fronten_lod1.msh",
+						name = "jay_mesh_habis6_fronten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_dach_lod1.msh",
+						name = "jay_mesh_habis6_dach",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_puffer_lod1.msh",
+						name = "jay_mesh_habis6_puffer",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, -0.050000000745058, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_frontAdd_lod1.msh",
+						name = "jay_mesh_habis6_frontAdd",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_frontStangen_lod1.msh",
+						name = "jay_mesh_habis6_frontStangen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_untenRum_lod1.msh",
+						name = "jay_mesh_habis6_untenRum",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_griffFront_lod1.msh",
+						name = "jay_mesh_habis6_griffFront",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_mitten_lod1.msh",
+						name = "jay_mesh_habis6_mitten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						animations = {
+							close_doors_right = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/habis6/Scene/jay_mesh_habis6_door01.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/waggon/habis6/Scene/jay_mesh_habis6_door01.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_door01_lod1.msh",
+						name = "jay_mesh_habis6_door01",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_door02_lod1.msh",
+						name = "jay_mesh_habis6_door02",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_door03_lod1.msh",
+						name = "jay_mesh_habis6_door03",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						animations = {
+							close_doors_left = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/habis6/Scene/jay_mesh_habis6_door04.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/waggon/habis6/Scene/jay_mesh_habis6_door04.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_door04_lod1.msh",
+						name = "jay_mesh_habis6_door04",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_door05_lod1.msh",
+						name = "jay_mesh_habis6_door05",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_door06_lod1.msh",
+						name = "jay_mesh_habis6_door06",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_untenRohr_lod1.msh",
+						name = "jay_mesh_habis6_untenRohr",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_645/dg_ba_645_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "DG_vorne",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 8.8100004196167, 0, -0.079999998211861, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_645/dg_ba_645_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "DG_hinten",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -8.8100004196167, 0, -0.079999998211861, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.079999998211861, 1, },
+			},
+			static = false,
+			visibleFrom = 66.39811706543,
+			visibleTo = 199.19435119629,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_untersatz_lod2.msh",
+						name = "jay_mesh_habis6_untersatz",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_platte_lod2.msh",
+						name = "jay_mesh_habis6_platte",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_fronten_lod2.msh",
+						name = "jay_mesh_habis6_fronten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_dach_lod2.msh",
+						name = "jay_mesh_habis6_dach",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_frontAdd_lod2.msh",
+						name = "jay_mesh_habis6_frontAdd",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_frontStangen_lod2.msh",
+						name = "jay_mesh_habis6_frontStangen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_untenRum_lod2.msh",
+						name = "jay_mesh_habis6_untenRum",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_mitten_lod2.msh",
+						name = "jay_mesh_habis6_mitten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						animations = {
+							close_doors_right = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/habis6/Scene/jay_mesh_habis6_door01.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/waggon/habis6/Scene/jay_mesh_habis6_door01.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_door01_lod2.msh",
+						name = "jay_mesh_habis6_door01",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_door02_lod2.msh",
+						name = "jay_mesh_habis6_door02",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_door03_lod2.msh",
+						name = "jay_mesh_habis6_door03",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						animations = {
+							close_doors_left = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/habis6/Scene/jay_mesh_habis6_door04.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/waggon/habis6/Scene/jay_mesh_habis6_door04.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_door04_lod2.msh",
+						name = "jay_mesh_habis6_door04",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_door05_lod2.msh",
+						name = "jay_mesh_habis6_door05",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_door06_lod2.msh",
+						name = "jay_mesh_habis6_door06",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_645/dg_ba_645_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "DG_vorne",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 8.8100004196167, 0, -0.079999998211861, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_645/dg_ba_645_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "DG_hinten",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -8.8100004196167, 0, -0.079999998211861, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.079999998211861, 1, },
+			},
+			static = false,
+			visibleFrom = 199.19435119629,
+			visibleTo = 597.58306884766,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_untersatz_lod3.msh",
+						name = "jay_mesh_habis6_untersatz",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_platte_lod3.msh",
+						name = "jay_mesh_habis6_platte",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_fronten_lod3.msh",
+						name = "jay_mesh_habis6_fronten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/habis6/Habis6_viessmannRot.mtl", },
+						mesh = "vehicle/waggon/habis6/jay_mesh_habis6_dach_lod3.msh",
+						name = "jay_mesh_habis6_dach",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+						},
+						name = "DG_vorne",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 8.8100004196167, 0, -0.079999998211861, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+						},
+						name = "DG_hinten",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -8.8100004196167, 0, -0.079999998211861, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.079999998211861, 1, },
+			},
+			static = false,
+			visibleFrom = 597.58306884766,
+			visibleTo = 1792.7491455078,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

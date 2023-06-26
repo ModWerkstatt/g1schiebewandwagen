@@ -1,0 +1,78 @@
+function data()
+return {
+	__version = "",
+	order = 0,
+	params = {
+		albedo_scale = {
+			albedoScale = { 1, 1, 1, },
+		},
+		color_blend = {
+			albedoScales = { 0, },
+			colors = {
+				{ 0, 0, 0, },
+			},
+		},
+		dirt_rust = {
+			age = 0,
+			dirtColor = { 0.18431371450424, 0.15903457999229, 0.12287580221891, },
+			dirtOpacity = 0.050000000745058,
+			dirtScale = 1,
+			rustColor = { 0.25490194559097, 0.10907780379057, 0.069973081350327, },
+			rustOpacity = 0,
+			rustScale = 1,
+		},
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo = {
+			fileName = "vehicle/waggon/habins901/Habins901_albedo.dds",
+			type = "TWOD",
+		},
+		map_cblend_dirt_rust = {
+			fileName = "vehicle/waggon/habins901/Habins901_dca.dds",
+			type = "TWOD",
+		},
+		map_dirt = {
+			fileName = "models/vehicle/dirt_albedo.dds",
+			type = "TWOD",
+		},
+		map_dirt_normal = {
+			fileName = "models/vehicle/dirt_normal.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		map_metal_gloss_ao = {
+			fileName = "vehicle/waggon/habins901/Habins901_mga.dds",
+			type = "TWOD",
+		},
+		map_normal = {
+			fileName = "vehicle/waggon/habins901/Habins901_nrml.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		map_rust = {
+			fileName = "models/vehicle/rust_albedo.dds",
+			type = "TWOD",
+		},
+		map_rust_normal = {
+			fileName = "models/vehicle/rust_normal.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		normal_scale = {
+			normalScale = 1,
+		},
+		polygon_offset = {
+			factor = 0,
+			forceDepthWrite = false,
+			units = 0,
+		},
+		two_sided = {
+			flipNormal = true,
+			twoSided = false,
+		},
+	},
+	type = "PHYSICAL_NRML_MAP_CBLEND_DIRT",
+}
+end
