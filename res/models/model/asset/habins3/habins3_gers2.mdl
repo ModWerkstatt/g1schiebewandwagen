@@ -121,7 +121,7 @@ return {
 						transf = { 0.0099999997764826, 0, 0, 0, 0, -1.6292066584711e-09, 0.0099999997764826, 0, 0, -0.010576562955976, -1.7231407412055e-09, 0, 0, 0, -0.032671015709639, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+						materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 						mesh = "vehicle/waggon/habins3/jay_habins3_mesh_kupplungMaikC_lod0.msh",
 						name = "jay_habins3_mesh_kupplungMaikC",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -222,17 +222,17 @@ return {
 					{
 						children = {
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
 							},
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
 							},
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_645/dg_ba_645_lod0.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
@@ -243,17 +243,17 @@ return {
 					{
 						children = {
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
 							},
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
 							},
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_645/dg_ba_645_lod0.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
@@ -407,17 +407,17 @@ return {
 					{
 						children = {
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
 							},
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
 							},
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_645/dg_ba_645_lod1.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
@@ -428,17 +428,17 @@ return {
 					{
 						children = {
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
 							},
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
 							},
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_645/dg_ba_645_lod1.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
@@ -562,17 +562,17 @@ return {
 					{
 						children = {
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
 							},
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
 							},
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_645/dg_ba_645_lod1.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
@@ -583,17 +583,17 @@ return {
 					{
 						children = {
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
 							},
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
 							},
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_645/dg_ba_645_lod1.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
@@ -627,17 +627,17 @@ return {
 					{
 						children = {
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
 							},
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
 							},
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_645/dg_ba_645_lod2.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
@@ -648,17 +648,17 @@ return {
 					{
 						children = {
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
 							},
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
 							},
 							{
-								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645_dirty.mtl", },
 								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_645/dg_ba_645_lod2.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},

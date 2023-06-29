@@ -1057,7 +1057,7 @@ return {
 				horn = "",
 				name = "mw_leicht",
 			},
-			topSpeed = 33.3,
+			topSpeed = 33.299999237061,
 			weight = 25,
 		},
 		transportVehicle = {

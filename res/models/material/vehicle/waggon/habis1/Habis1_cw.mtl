@@ -15,9 +15,11 @@ return {
 		dirt_rust = {
 			age = 0,
 			dirtColor = { 0.078431367874146, 0.039164435118437, 0.019530950114131, },
+			dirtFactor = 0,
 			dirtOpacity = 0.10999999940395,
 			dirtScale = 1,
 			rustColor = { 1, 1, 1, },
+			rustFactor = 0,
 			rustOpacity = 0.5,
 			rustScale = 1,
 		},

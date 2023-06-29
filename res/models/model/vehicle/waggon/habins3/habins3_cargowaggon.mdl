@@ -777,7 +777,7 @@ return {
 					innerForwardParts = { },
 				},
 				{
-					axles = { },
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh", },
 					backBackwardParts = { },
 					backForwardParts = { },
 					blinkLightsLeft0 = { },
@@ -797,7 +797,7 @@ return {
 			engines = { },
 			soundSet = {
 				horn = "",
-				name = "mw_schiebewand",
+				name = "mw_leicht",
 			},
 			topSpeed = 33.299999237061,
 			weight = 28,
